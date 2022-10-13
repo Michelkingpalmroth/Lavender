@@ -1,0 +1,111 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    /* background-color: #382948; */
+    color: #ffcbf2;
+    border: 5px solid #bd94b4;
+    border-radius: 15px;
+    text-shadow: 0px 0px 2px black;
+    margin-top: 0px;
+    padding: 0; 
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    padding: 10px;
+    height: 200px;
+    background-size: cover;
+    background-image: url("images/lavender2.jpg")
+ 
+}
+
+.activity-text {
+    padding: 40px;
+    margin: 0 0;
+    background-color: #7b2cbf;
+}
+
+.activity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 0 40px;
+    background-color: #7b2cbf;
+    
+}
+
+.ghastly{
+    border: 2px solid #382948;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url("images/guess1.jpg")
+    
+    }
+    
+.ghastly:hover {
+        background-image: url("images/ghastly.gif")
+    }
+    
+
+.haunter{
+    border: 2px solid #382948;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url("images/guess2.png")
+}
+
+.haunter:hover {
+        background-image: url("images/haunter.gif")
+    }
+
+.gengar {
+    border: 2px solid #382948;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url("images/guess3.jpg")
+}
+
+.gengar:hover {
+        background-image: url("images/gengar.gif")
+    }
+
+.guide {
+    border: 1px solid #bd94b4;
+    padding: 20px;
+    background-color: #8b6283
+    
+    
+}
+
+.michel {
+    border-radius: 100px;
+    border-top: 2px solid #382948;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("images/michel.png")
+}
+
+.michel:hover {
+    background-image: url("images/darkrai.gif")
+}
